@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio Website - Tushar Keshari</title>
+    <title>Portfolio Website-Tushar Keshari</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
+    <link rel="shortcut icon" href="./images/icons8-t-16.png" type="image/x-icon">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
 </head>
 <body>
     <div id="wrapper">
@@ -36,12 +37,10 @@
                         I am a <span class="role"></span>
                     </div>
                     <div class="hero-section-description">
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. A minima pariatur     
-                        nulla placeat non blanditiis
-                         praesentium necessitatibus sunt repellat totam.
+                        Welcome to the world of Tushar, I am artist with strong web development and coding skills.
                     </div>
 
-                    <div class="btn-pink" id="btn"> Hire me!!</div>
+                    <a href="#contactme" class="btn-pink" id="btn">Hire Me !!!</a>
 
                 </div>
 
@@ -80,28 +79,27 @@
                             <img class="project-skill" src="images/stack/HTML.png" alt="">
                             <img class="project-skill" src="images/stack/CSS.png" alt="">
                             <img class="project-skill" src="images/stack/Javascript.svg" alt="">
-                            <img class="project-skill" src="images/stack/Express.png" alt="">
-                            <img class="project-skill" src="images/stack/NodeJs.svg" alt="">
                             <img class="project-skill" src="images/stack/Tailwind.png" alt="">
-                            <img class="project-skill" src="images/stack/MongoDB.svg" alt="">
+                            <!-- <img class="project-skill" src="images/stack/MongoDB.svg" alt=""> -->
                             <img class="project-skill" src="images/stack/Redux.svg" alt="">
-                            <img class="project-skill" src="images/stack/Vercel.svg" alt="">
 
 
                         </div>
-                        <div class="project-heading">Tint & Orange</div>
+                        <div class="project-heading">Dostea<sup>n</sup> Cafe</div>
 
-                        <div class="project-subheading">Its is a car modification company
-                            which provides you sheets to protect your car from scrach.
+                        <div class="project-subheading ">The Surat-based startup which was founded on September 15, 2020, by three friends who enjoy drinking tea and opened their own cafe franchise of Gujarat's first eatable biscuit cup café.
                         </div>
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
                             <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <img src="./images/stack/icons8-github-50.png"
+                                width="40px" height="40px" alt="">
                             </a>
                             <a href="">
-                                <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                                <img src="./images/stack/icons8-link-50.png"
+                                width="40px" height="40px"  alt="">
                             </a>
+                           
                         </div>
                     </div>
 
@@ -130,10 +128,12 @@
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
                             <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <img src="./images/stack/icons8-github-50.png"
+                                width="40px" height="40px" alt="">
                             </a>
                             <a href="">
-                                <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                                <img src="./images/stack/icons8-link-50.png"
+                                width="40px" height="40px"  alt="">
                             </a>
                         </div>
                     </div>
@@ -163,10 +163,12 @@
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
                             <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <img src="./images/stack/icons8-github-50.png"
+                                width="40px" height="40px" alt="">
                             </a>
                             <a href="">
-                                <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                                <img src="./images/stack/icons8-link-50.png"
+                                width="40px" height="40px"  alt="">
                             </a>
                         </div>
                     </div>
@@ -196,10 +198,12 @@
                         <div class="btn-grp">
                             <button class="btn-pink btn-project">Read More</button>
                             <a href="">
-                                <i title="GitHubLink" class="fa-brands fa-github icon"></i>
+                                <img src="./images/stack/icons8-github-50.png"
+                                width="40px" height="40px" alt="">
                             </a>
                             <a href="">
-                                <i title="LiveLink" class="fa-solid fa-link icon"></i>
+                                <img src="./images/stack/icons8-link-50.png"
+                                width="40px" height="40px"  alt="">
                             </a>
                         </div>
                     </div>
@@ -327,9 +331,23 @@
                     </div>
                 </div>
                 
-            </div>
+            </div> 
         </footer>
     </div> 
-    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        var typeData = new Typed(".role", {
+            strings: [
+                "Frontend-developer.",
+                "App-Developer.",
+                "Coding-Enthusiastic.",
+                "React-Developer."
+            ],
+            loop:true,
+            typeSpeed:51,
+            backSpeed:80,
+            backDelay: 1000,
+        });
+    </script>
 </body>
 </html>
